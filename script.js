@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Validate input
         if (taskText !== "") {
-            
+ 
  
         
 
@@ -38,6 +38,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Clear input field
         taskInput.value = "";
+        }
+        else{
+            alert("cannot be empty")
         }
     
     }
