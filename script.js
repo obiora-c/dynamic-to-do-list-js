@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const taskText = taskInput.value.trim();
 
         // Validate input
-        if (taskText === "") {
-            alert("Please enter a task.");
-            return;
-        }
+        if (taskText !== "") {
+            
+ 
+        
 
         // Create <li>
         const li = document.createElement('li');
@@ -38,6 +38,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Clear input field
         taskInput.value = "";
+        }
+    
     }
 
     // ---- EVENT LISTENERS ----
